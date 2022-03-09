@@ -1,6 +1,7 @@
 $color--black: #000;
 $color--white: #fff;
 $color--blue: #b1d2fa;
+$color--dblue: #2e7bd4;
 $color--lgray: #d8d8d8;
 $color--dgray: #a7a7a7;
 
@@ -46,16 +47,35 @@ main {
 
 footer {
   margin-top: auto;
+  margin: 0 2rem;
   padding-bottom: 1.5rem;
 
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: column nowrap;
   justify-content: center;
 
   font-size: 0.75rem;
 
   @media only screen and (min-width: 1200px) {
+    margin: 0;
     justify-content: flex-start;
+  }
+
+  p {
+    margin: 0;
+
+    &:first-of-type {
+      margin-bottom: 0.5rem;
+    }
+  }
+
+  a {
+    color: $color--dblue;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }
 
