@@ -4,8 +4,8 @@ A simple web app built with [Next.JS](https://nextjs.org/) to convert fuel price
 
 ## Credits
 
-[Exchangerate.host](https://exchangerate.host/#/): [GitHub](https://github.com/Formicka/exchangerate.host) - Used for fetching currencies as well as currenct exchange rates for available currencies.
-[Eva Icons](https://akveo.github.io/eva-icons/#/): [GitHub](https://github.com/akveo/eva-icons) - Icon library used for the project.
+- [Exchangerate.host](https://exchangerate.host/#/): [GitHub](https://github.com/Formicka/exchangerate.host) - Used for fetching currencies as well as currenct exchange rates for available currencies.
+- [Eva Icons](https://akveo.github.io/eva-icons/#/): [GitHub](https://github.com/akveo/eva-icons) - Icon library used for the project.
 
 ## Setup
 
