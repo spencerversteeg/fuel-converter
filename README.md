@@ -4,7 +4,7 @@ A simple web app built with [Next.JS](https://nextjs.org/) to convert fuel price
 
 ## Credits
 
-[ExchangeRate.Host](https://exchangerate.host/#/): [GitHub](https://github.com/Formicka/exchangerate.host) - Used for fetching currencies as well as currenct exchange rates for available currencies.
+[Exchangerate.host](https://exchangerate.host/#/): [GitHub](https://github.com/Formicka/exchangerate.host) - Used for fetching currencies as well as currenct exchange rates for available currencies.
 
 ## Setup
 
