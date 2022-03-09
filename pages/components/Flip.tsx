@@ -1,4 +1,4 @@
-export const Flip = () => (
+const Flip = () => (
   <svg
     width="32"
     height="32"
@@ -12,3 +12,5 @@ export const Flip = () => (
     />
   </svg>
 );
+
+export default Flip;

@@ -1,4 +1,4 @@
-export const Footer: React.FC = () => (
+const Footer: React.FC = () => (
   <footer>
     <p>
       Created by{" "}
@@ -21,3 +21,5 @@ export const Footer: React.FC = () => (
     </p>
   </footer>
 );
+
+export default Footer;

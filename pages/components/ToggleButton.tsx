@@ -6,7 +6,7 @@ interface IToggleButton {
   onChange: (e: any) => void;
 }
 
-export const ToggleButton: React.FC<IToggleButton> = ({
+const ToggleButton: React.FC<IToggleButton> = ({
   defaultChecked,
   name,
   onChange,
@@ -38,3 +38,5 @@ export const ToggleButton: React.FC<IToggleButton> = ({
     </div>
   );
 };
+
+export default ToggleButton;

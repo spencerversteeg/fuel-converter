@@ -1,4 +1,4 @@
-export const ArrowDown: React.FC = () => (
+const ArrowDown: React.FC = () => (
   <svg
     width="24"
     height="24"
@@ -12,3 +12,5 @@ export const ArrowDown: React.FC = () => (
     />
   </svg>
 );
+
+export default ArrowDown;

@@ -1,5 +1,5 @@
 import { useRef, useState, useEffect } from "react";
-import { ArrowDown } from "./ArrowDown";
+import ArrowDown from "./ArrowDown";
 
 interface IListCurrencies {
   [key: string]: {
@@ -14,16 +14,9 @@ interface IDropdown {
   label: string;
   value: string | number;
   onChange: (value: any) => void;
-  // onClick: (value: any) => void;
 }
 
-export const Dropdown: React.FC<IDropdown> = ({
-  list,
-  label,
-  value,
-  onChange,
-  // onClick,
-}) => {
+const Dropdown: React.FC<IDropdown> = ({ list, label, value, onChange }) => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
   const [query, setQuery] = useState<string>("");
   const selected = useRef(null);
@@ -106,3 +99,5 @@ export const Dropdown: React.FC<IDropdown> = ({
     </div>
   );
 };
+
+export default Dropdown;
