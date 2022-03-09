@@ -1,0 +1,1 @@
+type FluidMeasurement = "GALLON" | "LITRE";
