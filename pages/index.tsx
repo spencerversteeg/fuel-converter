@@ -4,11 +4,11 @@ import axios from "axios";
 import Head from "next/head";
 import { IListCurrencies, listCurrencies } from "../lib/rates";
 
-import Dropdown from "./components/Dropdown";
-import Footer from "./components/Footer";
-import Header from "./components/Header";
-import ToggleButton from "./components/ToggleButton";
-import Flip from "./components/Flip";
+import Dropdown from "../components/Dropdown";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
+import ToggleButton from "../components/ToggleButton";
+import Flip from "../components/Flip";
 
 const litreToGallon = (value: number, to: FluidMeasurement): number => {
   switch (to) {
